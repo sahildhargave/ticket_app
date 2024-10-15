@@ -19,7 +19,7 @@ func (h *EventHandler) GetMany(ctx *fiber.Ctx) error {
 	events, err := h.repository.GetMany(context)
 
 	if err != nil {
-		return ctx.Status(fiber.StatusBadGateway).JSON(&fiber.Map{
+		return ctx.Status(fiber.StatusBadRequest).JSON(&fiber.Map{
 			"status":  "fail",
 			"message": err.Error(),
 		})
