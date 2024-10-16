@@ -1,3 +1,4 @@
 {
-	"prisma-smart-formatter.typescriptreact.defaultFormatter": "SimonSiefke.prettier-vscode"
+	"prisma-smart-formatter.typescriptreact.defaultFormatter": "SimonSiefke.prettier-vscode",
+	"eslint.enable": false
 }
